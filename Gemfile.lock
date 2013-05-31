@@ -208,7 +208,7 @@ GEM
       jwt (~> 0.1.4)
       multi_json (~> 1.0)
       rack (~> 1.2)
-    octokit (1.18.0)
+    octokit (1.0.7)
       addressable (~> 2.2)
       faraday (~> 0.8)
       faraday_middleware (~> 0.8)
@@ -262,8 +262,8 @@ GEM
       activesupport (= 3.2.13)
       bundler (~> 1.0)
       railties (= 3.2.13)
-    rails_autolink (1.1.0)
-      rails (> 3.1)
+    rails_autolink (1.0.9)
+      rails (~> 3.1)
     railties (3.2.13)
       actionpack (= 3.2.13)
       activesupport (= 3.2.13)
@@ -394,7 +394,7 @@ DEPENDENCIES
   mongo
   mongoid (~> 2.7.1)
   mongoid_rails_migrations
-  octokit
+  octokit (~> 1.0.0)
   omniauth-github
   oruen_redmine_client
   pivotal-tracker
@@ -402,7 +402,7 @@ DEPENDENCIES
   rack-ssl
   rack-ssl-enforcer
   rails (= 3.2.13)
-  rails_autolink
+  rails_autolink (~> 1.0.9)
   ri_cal
   rspec-rails (~> 2.6)
   ruby-debug
